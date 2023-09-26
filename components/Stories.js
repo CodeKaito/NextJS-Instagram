@@ -11,7 +11,7 @@ function Stories() {
         const suggestions = [...Array(20)].map((_, i) => ({
             ...faker.helpers.multiple(),
             _id: faker.string.uuid(),
-            avatar: faker.image.avatar(),
+            avatar: faker.image.avatarGitHub(),
             birthday: faker.date.birthdate(),
             email: faker.internet.email(),
             firstName: faker.person.firstName(),
